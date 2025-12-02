@@ -1,0 +1,11 @@
+.hero {
+  background-image: linear-gradient(to right, #1e3c72, #2a5298);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+  padding: 120px 20px;   
+
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}

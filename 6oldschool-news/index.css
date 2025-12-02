@@ -1,0 +1,18 @@
+.sidebar {
+  float: left;
+  width: 30%;
+  background: lightgray;
+  padding: 10px;
+}
+.main-content {
+  float: right;
+  width: 68%;
+  background: #f0f0f0;
+  padding: 10px;
+}
+footer {
+  clear: both;
+  background: #ddd;
+  padding: 20px;
+  text-align: center;
+}

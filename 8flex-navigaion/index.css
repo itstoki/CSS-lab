@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: lightgray;
+  padding: 10px;
+}
+
+.menu a {
+  margin-left: 15px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu a {
+    display: block;
+    margin: 5px 0;
+  }
+}

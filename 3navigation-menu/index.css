@@ -1,0 +1,20 @@
+nav > ul > li:first-child a {
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: red;
+}
+
+nav a.active {
+  background-color: lightblue;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+nav > ul > li {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 8px;
+}

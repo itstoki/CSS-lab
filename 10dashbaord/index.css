@@ -1,0 +1,22 @@
+.container {
+  display: grid;
+  grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+}
+header { 
+    grid-area: header; background: lightgray; padding: 20px;
+}
+aside  { 
+    grid-area: sidebar; background: lightblue; padding: 20px; 
+}
+main   {
+     grid-area: main; background: lightgreen; padding: 20px; 
+}
+footer { 
+    grid-area: footer; background: lightcoral; padding: 20px;
+}

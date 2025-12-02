@@ -1,0 +1,29 @@
+.top-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #444;
+  color: white;
+  padding: 15px;
+  z-index: 1000;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 60px;  
+  background: #777;
+  color: white;
+  padding: 20px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  padding: 10px 15px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
